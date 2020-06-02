@@ -23,8 +23,7 @@ Seek coaching advise if you need help._
 
 Make sure you run `bundle install` to install the gems in our `Gemfile`. If your
 operating system is OSX El Capitan and you have an issue installing
-`EventMachine`, run the following command: `gem install eventmachine --
---with-cppflags=-I/usr/local/opt/openssl/include`.
+`EventMachine`, run the following command: `gem install eventmachine -- --with-cppflags=-I/usr/local/opt/openssl/include`.
 
 ## Why Shotgun
 
@@ -42,8 +41,7 @@ Pay attention to the line that says `Listening on localhost:9292`.
 Learn IDE, you will see a different address —
 [here's an explanatory Help Center
 article](http://help.learn.co/the-learn-ide/common-ide-questions/accessing-localhost-in-the-learn-ide).
-Go ahead and copy and paste that into the browser. You should see `Welcome to
-your app!!!!` on the screen.
+Go ahead and copy and paste that into the browser. You should see `Welcome to your app!!!!` on the screen.
 
 When starting an application with `rackup`, our application code is read once on
 boot and never again. Once we start the application locally, if we make changes
@@ -167,8 +165,7 @@ $ bundle exec shotgun
 
 ### bundler error
 
-You might get an error about `bundler` that will tell you to run `bundle
-install`. It'll look like this:
+You might get an error about `bundler` that will tell you to run `bundle install`. It'll look like this:
 
 ```sh
 $ shotgun
